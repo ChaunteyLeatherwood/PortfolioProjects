@@ -85,6 +85,8 @@ Join PortfolioProject..CovidVaccinations vac
 Where dea.continent is not null
 Order by 2,3
 
+--Use CTE
+	
 With PopvsVac (Continent, Location, Date, Population, New_Vaccinations, RollingPeopleVaccinated)
 as
 (
